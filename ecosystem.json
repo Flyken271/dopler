@@ -1,7 +1,6 @@
 {
   "apps" : [{
-    "name"      : "APP",
-    "script"    : "yarn start",
+    "name"      : "dopler",
     "env_production": {
       "NODE_ENV": "production"
     }
@@ -14,7 +13,7 @@
       "ref"  : "origin/main",
       "repo" : "git@github.com:Flyken271/dopler.git",
       "path" : "/var/www/app",
-      "post-deploy" : "yarn && yarn build && pm2 startOrRestart ecosystem.json --name dopler"
+      "post-deploy" : "yarn && yarn build"
     }
   }
 }
