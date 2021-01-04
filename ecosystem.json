@@ -10,7 +10,7 @@
     "production": {
       "user" : "flyken",
       "host" : ["209.208.63.24"],
-      "key": "~/.ssh/deploy_rsa.pub",
+      "key": "~/.ssh/id_rsa.pub",
       "ref"  : "origin/master",
       "repo" : "git@gitlab.com:Flyken271/dopler.git",
       "path" : "/var/www/app",
